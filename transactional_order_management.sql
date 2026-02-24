@@ -58,7 +58,6 @@ PRIMARY KEY (orderID,itemSequenceNumber),
 CONSTRAINT FK_orderitem_order FOREIGN KEY (orderID) REFERENCES `Order`(orderID));
 
 -- ##################################################################################
--- Put your SQL below for the data insertion statements for Task B
 -- ===== CustomerType (4 types)
 INSERT INTO CustomerType (customerTypeID, customerTypeName, customerTypeDescription) VALUES
 (500,'Individual','Private person'),
